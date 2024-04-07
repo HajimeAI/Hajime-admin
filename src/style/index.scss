@@ -1,0 +1,20 @@
+@import "./transition";
+@import "./element-plus";
+@import "./sidebar";
+@import "./dark";
+
+:root {
+  --pure-transition-duration: 0.3s;
+
+  --pure-border-color: rgb(5 5 5 / 6%);
+
+  --pure-switch-off-color: #a6a6a6;
+}
+
+.html-grey {
+  filter: grayscale(100%);
+}
+
+.html-weakness {
+  filter: invert(80%);
+}
