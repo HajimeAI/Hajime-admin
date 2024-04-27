@@ -28,8 +28,6 @@ import {PhantomWalletAdapter, SolflareWalletAdapter} from "@solana/wallet-adapte
 import * as directives from "@/directives";
 import {FontIcon, IconifyIconOffline, IconifyIconOnline} from "./components/ReIcon";
 import {Auth} from "@/components/ReAuth";
-import "tippy.js/dist/tippy.css";
-import "tippy.js/themes/light.css";
 import VueTippy from "vue-tippy";
 
 const walletOptions = {
